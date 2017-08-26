@@ -1,0 +1,13 @@
+@extends('layouts.dashboard')
+@section('content')
+
+<form>
+
+	{{ csrf_field() }}
+
+	<label>nome da instituição</label>
+	<input type="text" name="name">
+
+</form>
+
+@stop
